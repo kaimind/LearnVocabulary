@@ -1,8 +1,10 @@
 # LearnVocabulary
 
-这是一个用golang和react编写的，简单的web app。
+## 项目介绍
 
-app的功能是背英语单词。
+学英语，背单词很费时间。背了又忘，忘了又背。为了更高效的背单词，用go和react编写了这个手机端的webapp，用于在手机浏览器里面背单词。
+
+选择一个单词列表，如四级六级词汇表，乱序生成一个学词计划，每天完成当日的学词任务。防止遗忘，复习是关键。所以，还生成了一个按学习日期排序的复习列表，每天可以选择任意的日期来复习。
 
 ## 如何开始
 
@@ -58,4 +60,4 @@ vocabulary -port "5000" -session "Paeh9eivEiJuo1Vu"
 # -mysql 数据库mysql的url路径
 ```
 
-用浏览器打开http://localhost:5000/index，就可以看到效果了。
+用浏览器打开 http://localhost:5000/index 就可以看到效果了。
